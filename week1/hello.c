@@ -7,8 +7,10 @@
 
 
 //\n is used to create a new line. (escape sequence.)
-int main(void) {
+int main(void) 
+{
     //%s is a placeholder for a variable
-    string answer = get_string("What's your name? ");
-    printf("Hello, %s\n" , answer);
+    printf("Hello, world \n");
 }
+
+ 
